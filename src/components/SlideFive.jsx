@@ -10,9 +10,16 @@ export const SlideFive = () => {
             {/* Title Section */}
             <div className="text-center mx-auto mb-10 lg:mb-16">
                 <div className=" text-2xl md:text-3xl lg:text-4xl font-bold text-[#1E3767] max-w-2xl mx-auto bg"
-                     style={{ fontFamily: "Tajawal, system-ui", fontWeight: "700", display:'inline-flex' }}>
-           
-           قم بالإيداع الآن واحصل على بونص ايداع يصل إلى %30
+                    style={{ fontFamily: "Tajawal, system-ui", fontWeight: "700", display: 'inline-flex' }}>
+
+                    قم بالإيداع الآن واحصل على بونص ايداع يصل إلى
+                </div>
+                <div className=" text-2xl md:text-3xl lg:text-4xl font-bold text-[#9A2168] lg:mr-56 lg:-mt-[36px]"
+                    style={{ fontFamily: "Tajawal, system-ui", fontWeight: "700",
+
+                    }}>
+                    30%
+
                 </div>
             </div>
 
