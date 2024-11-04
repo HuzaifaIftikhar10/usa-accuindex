@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import man from "../images/Man.png";
+import manEn from "../images/ManEn.png";
 import map from "../images/Map.png"; // Importing the background image
 import { FaCheck } from "react-icons/fa";
 import PhoneInput from "react-phone-input-2";
@@ -126,12 +127,13 @@ export const SlideOne = () => {
             style={{ fontFamily: "Tajawal, system-ui", fontWeight: "800" }}
             dir="rtl"
           >
-            احتفل باليوم الوطني السعودي مع
-            <span
+
+ تداول في أكبر المؤشرات الأمريكية مع
+                        <span
               className="text-[#9A2168]"
               style={{ fontFamily: "Poppins, system-ui", fontWeight: "800" }}
             >
-              AccuIndex
+           &nbsp;   AccuIndex 
             </span>
           </h1>
           <p
@@ -373,8 +375,11 @@ export const SlideOne = () => {
       </div>
 
       {/* Right Section: Image */}
-      <div className="relative w-full flex flex-1 items-end xl:pr-36 inset-y-3">
-        <img src={man} alt="Man" className="xl:h-[700px] xl:w-[850px]" />
+      <div className="relative w-full flex flex-1 items-end xl:pr-36 inset-y-3 md:inset-y-4 lg:inset-y-5 xl:inset-y-2 ">
+        <img src={manEn} alt="Man" className="xl:h-[700px] xl:w-[850px] xl:hidden" />
+    
+    
+        <img src={man} alt="Man" className="xl:h-[700px] xl:w-[850px] hidden xl:block" />
       </div>
     </div>
   );
