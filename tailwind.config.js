@@ -10,6 +10,7 @@ export default {
         'xs': '320px',
         '2xs': '347px',
         '3xs': '375px',
+        'xsss': '376px',
         'xss':'425px',
 
         '4xs': '476px',
